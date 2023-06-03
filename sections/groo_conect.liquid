@@ -1,0 +1,45 @@
+{{ 'groo_conect.css' | asset_url | stylesheet_tag }}
+
+<section class="conect">
+  {% for block in section.blocks %}
+    <div class="conect_container">
+      <div class="conect_item">
+        <div class="svg_conect">
+          {{ block.settings.image_conect | image_url: width: number | image_tag: class: 'svg', loading: 'lazy' }}
+        </div>
+        <h2 class="conect_title">{{ block.settings.title_conect }}</h2>
+        <p class="text_conect">{{ block.settings.text_conect }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</section>
+
+{% schema %}
+{
+  "name": "groo_conect",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_conect",
+          "label": "Image conect"
+        },
+        {
+          "type": "text",
+          "id": "title_conect",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "text_conect",
+          "label": "Text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

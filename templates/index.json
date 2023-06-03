@@ -1,210 +1,109 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "navbar": {
+      "type": "groo_navbar",
+      "settings": {
+      }
+    },
+    "hero": {
+      "type": "groo_hero",
+      "settings": {
+        "title-Hero": "Find your career mentor",
+        "description": "Connect, Learn, Grow",
+        "description-text": "with the world’s best proven and experienced Mentors"
+      }
+    },
+    "inspiring": {
+      "type": "groo_inspiring",
+      "settings": {
+        "text_one": "job?",
+        "text_two": "Are you inspiring your team?",
+        "text_three": "Navigating the corporate culture?"
+      }
+    },
+    "Connect": {
+      "type": "groo_conect",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "fa73a64d-12fc-42c2-af5d-2c0d18eb2727": {
+          "type": "slide",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "image_conect": "shopify:\/\/shop_images\/Vector_9.png",
+            "title_conect": "Connect",
+            "text_conect": "with the right mentor"
           }
         },
-        "text": {
-          "type": "text",
+        "b9b7b4e5-cec2-4f05-bb48-f6cd64e816ef": {
+          "type": "slide",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "image_conect": "shopify:\/\/shop_images\/learning_on_pc.png",
+            "title_conect": "Learn",
+            "text_conect": "from an experienced professional"
           }
         },
-        "button": {
-          "type": "buttons",
+        "3fea26f9-b953-41f9-8f2f-cc7807dab870": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image_conect": "shopify:\/\/shop_images\/Group.png",
+            "title_conect": "Grow",
+            "text_conect": "with someone who cares about you"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "fa73a64d-12fc-42c2-af5d-2c0d18eb2727",
+        "b9b7b4e5-cec2-4f05-bb48-f6cd64e816ef",
+        "3fea26f9-b953-41f9-8f2f-cc7807dab870"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "Mentors": {
+      "type": "groo_mentors",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "a5923366-83ac-467b-8951-c7e72313226a": {
+          "type": "slide",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "image_card": "shopify:\/\/shop_images\/image_4_fece6654-2153-4aaf-841c-feb4b4cd2b4f.png",
+            "title_card": "Fran Perez",
+            "text_card": "VP of Marketing, Melbourne",
+            "text_card_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc, imperdiet tempor at enim nisi nibh eros..."
           }
         },
-        "text": {
-          "type": "text",
+        "b4c62d06-e109-466d-ba66-9a6ecebed979": {
+          "type": "slide",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "image_card": "shopify:\/\/shop_images\/image_8_2a855dbe-7a68-4240-9166-b1069c2dfac4.png",
+            "title_card": "Hassan Ajayi",
+            "text_card": "CEO, Austin",
+            "text_card_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc, imperdiet tempor at enim nisi nibh eros..."
+          }
+        },
+        "5925dc0f-d413-4d21-99fe-ece6f2bfd6c2": {
+          "type": "slide",
+          "settings": {
+            "image_card": "shopify:\/\/shop_images\/image_3.png",
+            "title_card": "Samuel Hall",
+            "text_card": "Director of Programs, Tokyo",
+            "text_card_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc, imperdiet tempor at enim nisi nibh eros..."
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "a5923366-83ac-467b-8951-c7e72313226a",
+        "b4c62d06-e109-466d-ba66-9a6ecebed979",
+        "5925dc0f-d413-4d21-99fe-ece6f2bfd6c2"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title_mentors": "",
+        "text_mentors": ""
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "navbar",
+    "hero",
+    "inspiring",
+    "Connect",
+    "Mentors"
   ]
 }
