@@ -1,16 +1,20 @@
-.mentors .title_mentors, .mentors .text_mentors, .mentors .card_title,
+.mentors .title_mentors,
+.mentors .text_mentors,
+.mentors .card_title,
 .mentors .card_text {
     color: #222222;
     font-family: GT America Trial;
 }
+
 .mentors .card_title,
 .mentors .card_text {
     padding-left: 36px;
 }
 
-.mentors{
+.mentors {
     padding: 128px;
 }
+
 .mentors .title_mentors {
     font-size: 34px;
     font-weight: 700;
@@ -26,12 +30,15 @@
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
+    max-width: 600px;
+    margin-bottom: 64.28px;
 }
 
 .mentors .mentors_container {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 0 60px 36px;
 }
 
 .mentors .mentors_item {
@@ -77,12 +84,27 @@
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
+    max-width: 290px;
 }
 
 .mentors .txt_descrip {
     margin-top: 18px;
 }
-.mentors .container_bottoms{
+
+.mentors .meet_card {
+    max-width: 190px;
+    min-height: 55px;
+    padding: 16px 32px;
+    border: 1px solid #2F80ED;
+    border-radius: 100px;
+    color: #2F80ED;
+}
+
+.mentors .watch>svg {
+    margin-right: 10px;
+}
+
+.mentors .container_bottoms {
     margin-top: 64px;
     width: 100%;
     display: flex;
@@ -97,9 +119,11 @@
     color: #fff;
     padding: 16px 32px;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.mentors .browse > svg{
+
+.mentors .browse>svg {
     margin-left: 10px;
 }
