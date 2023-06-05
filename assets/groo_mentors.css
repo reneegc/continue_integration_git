@@ -94,10 +94,11 @@
 .mentors .meet_card {
     max-width: 190px;
     min-height: 55px;
-    padding: 16px 32px;
+    padding: 8px 24px;
     border: 1px solid #2F80ED;
     border-radius: 100px;
     color: #2F80ED;
+    display: block;
 }
 
 .mentors .watch>svg {
