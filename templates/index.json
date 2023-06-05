@@ -27,6 +27,7 @@
         "fa73a64d-12fc-42c2-af5d-2c0d18eb2727": {
           "type": "slide",
           "settings": {
+            "image_conect": "shopify:\/\/shop_images\/Vector_9.png",
             "title_conect": "Connect",
             "text_conect": "with the right mentor"
           }
@@ -34,6 +35,7 @@
         "b9b7b4e5-cec2-4f05-bb48-f6cd64e816ef": {
           "type": "slide",
           "settings": {
+            "image_conect": "shopify:\/\/shop_images\/learning_on_pc.png",
             "title_conect": "Learn",
             "text_conect": "from an experienced professional"
           }
@@ -41,6 +43,7 @@
         "3fea26f9-b953-41f9-8f2f-cc7807dab870": {
           "type": "slide",
           "settings": {
+            "image_conect": "shopify:\/\/shop_images\/Group.png",
             "title_conect": "Grow",
             "text_conect": "with someone who cares about you"
           }
