@@ -85,19 +85,21 @@
 .mentors .txt_descrip {
     margin-top: 18px;
 }
+.mentors .container_bottoms{
+    margin-top: 64px;
+}
 
-.mentors .join {
+.mentors .browse {
     min-height: 46px;
     border-radius: 100px;
     min-width: 464px;
     background-color: #2F80ED;
     color: #fff;
     padding: 16px 32px;
-    margin-top: 64px;
 }
 a{
     text-decoration: none;
 }
-.mentors .join > svg{
+.mentors .browse > svg{
     margin-left: 10px;
 }
