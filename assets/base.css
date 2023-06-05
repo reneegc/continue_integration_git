@@ -1,3 +1,7 @@
+.global{
+  max-width: 1440px;
+  margin: 0 auto;
+}
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
