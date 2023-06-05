@@ -41,7 +41,6 @@
 }
 
 .mentors .mentors_item {
-    padding: 0 0 60px 36px;
     max-width: 362.67px;
     overflow: hidden;
     display: flex;
@@ -92,13 +91,14 @@
 }
 
 .mentors .meet_card {
-    max-width: 190px;
-    min-height: 55px;
-    padding: 8px 24px;
+    max-width: 161px;
+    min-height: 36px;
     border: 1px solid #2F80ED;
     border-radius: 100px;
-    color: #2F80ED;
-    display: block;
+    color: #2f80ed;
+    margin: 30px 0 60px 36px;
+    text-align: center;
+    line-height: 55px;
 }
 
 .mentors .watch>svg {
